@@ -1,0 +1,4 @@
+[core]
+    remote = myremote
+['remote "myremote"']
+    url = ssh://jeff@116.47.188.227:10024/home/jeff/dvc-tutorial
