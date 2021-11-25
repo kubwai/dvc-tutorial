@@ -1,4 +1,6 @@
 [core]
-    remote = myremote
-['remote "myremote"']
-    url = ssh://jeff@116.47.188.227:10024/home/jeff/dvc-tutorial
+    remote = ssh-storage
+['remote "ssh-storage"']
+    url = ssh://116.47.188.227/home/jeff/dvc-data
+    user = jeff
+    port = 10024
